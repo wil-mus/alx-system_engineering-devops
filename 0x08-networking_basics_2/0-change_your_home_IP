@@ -2,7 +2,7 @@
 # A script to change localhost addresses
 
 # 1. Copy the existing hosts file to a new file called hosts.new
-# 2. Write the new IP address and hostname to the hosts.new file
+# 2. Write a new IP address and hostname to the hosts.new file
 # 3. Copy the hosts.new file to the /etc/hosts file
 cp /etc/hosts ~/hosts.new
 echo "127.0.0.2 localhost" > ~/hosts.new
